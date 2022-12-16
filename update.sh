@@ -103,13 +103,13 @@ source $HOME/.cargo/env
 git clone https://github.com/dani-garcia/vaultwarden.git
 cd vaultwarden/
 git checkout
-cargo build --features sqlite --release
+cargo build --features postgresql --release
 cd ..
 
 #Download precompiled webvault
 VWRELEASE=$(curl -s https://api.github.com/repos/dani-garcia/bw_web_builds/releases/latest \
 | grep "tag_name" \
-| awk '{print substr($2, 2, length($2)-3) }') \
+| awk '{print substr($2, 2, length($2)-3) }')
 
 wget https://github.com/dani-garcia/bw_web_builds/releases/download/$VWRELEASE/bw_web_$VWRELEASE.tar.gz
 
