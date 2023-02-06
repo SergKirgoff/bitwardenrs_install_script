@@ -1,15 +1,10 @@
 Vaultwarden/BitwardenRS_install_script. 
 
-Please note due to no longer using vaultwarden I have archived this, if anyone wants to take over let me know :)
------
-
 Install Script for Vaultwarden for Ubuntu 22.04 using https://github.com/dani-garcia/vaultwarden
 
 Please note this is an unofficial install script and support requests for the install should come here not to https://github.com/dani-garcia/vaultwarden
 
 This installs BitWarden_RS on Ubuntu 22.04 with SQLite, configures firewall and enables fail2ban.
-
-You can use Hetzner to test this with a $20 credit using this referal code https://hetzner.cloud/?ref=p6iUr7jEXmoB
 
 ## Hardware Requirements 
 
