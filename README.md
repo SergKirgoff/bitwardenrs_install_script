@@ -1,4 +1,4 @@
-Vaultwarden/BitwardenRS_install_script. 
+## Vaultwarden/BitwardenRS_install_script. 
 
 Install Script for Vaultwarden for Ubuntu 22.04 using https://github.com/dani-garcia/vaultwarden
 
